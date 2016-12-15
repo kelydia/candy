@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cjgod.candy.dao.db.interfaces.db.interfaces.CapitalMapper">
+
+
+    <select id="getWithdrawPageCounts" resultType="Integer">
+        select count(a.uid)
+        from user_basic a,user_order_withdraw c
+        where a.uid = c.uid
+        <if test="userName!=null and userName!=''">
+            and a.user_name like CONCAT('%',#{userName,jdbcType=VARCHAR},'%')
+        </if>
+        <if test="siteId!=null and siteId!=''">
+            and c.site_id like CONCAT('%',#{siteId,jdbcType=VARCHAR},'%')
+        </if>
+        <if test="drawStatus!='ALL' and drawStatus!=null and drawStatus!='' ">
+            and c.withdraw_status = #{drawStatus,jdbcType=VARCHAR}
+        </if>
+
+    </select>
+
+    <select id="getWithdrawByCondition" resultType="com.cjgod.candy.dao.db.interfaces.db.dto.CapitalDrawDetail">
+        select a.user_name 'userName',c.site_id 'siteId',c.withdraw_amount 'amount',c.withdraw_type 'drawType',c.withdraw_account 'account',
+        c.withdraw_status 'drawStatus',c.create_date 'applyForDate',c.update_date 'acceptDate'
+        from user_basic a,user_order_withdraw c
+        where a.uid = c.uid
+        <if test="userName!=null and userName!=''">
+            and a.user_name like CONCAT('%',#{userName,jdbcType=VARCHAR},'%')
+        </if>
+        <if test="siteId!=null and siteId!=''">
+            and c.site_id like CONCAT('%',#{siteId,jdbcType=VARCHAR},'%')
+        </if>
+        <if test="drawStatus!='ALL' and drawStatus!=null and drawStatus!='' ">
+            and c.withdraw_status = #{drawStatus,jdbcType=VARCHAR}
+        </if>
+        limit #{page,jdbcType=INTEGER},#{rows,jdbcType=INTEGER}
+    </select>
+
+
+</mapper>
