@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/candy.iml" filepath="$PROJECT_DIR$/candy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/candy-common/candy-common.iml" filepath="$PROJECT_DIR$/candy-common/candy-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/candy-data/candy-data.iml" filepath="$PROJECT_DIR$/candy-data/candy-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/candy-service/candy-service.iml" filepath="$PROJECT_DIR$/candy-service/candy-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/morning/morning.iml" filepath="$PROJECT_DIR$/morning/morning.iml" />
+    </modules>
+  </component>
+</project>
