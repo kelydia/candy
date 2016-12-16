@@ -7,7 +7,7 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * Created by Administrator on 2016/12/16.
+ * Created by lichunjiang on 2016/12/16.
  */
 public class CapitalServiceTest extends AbstractJUnit{
     @Autowired

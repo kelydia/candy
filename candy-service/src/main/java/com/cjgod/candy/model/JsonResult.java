@@ -1,12 +1,12 @@
 package com.cjgod.candy.model;
 
-import com.cjgod.candy.enums.RetStatusEnum;
+import com.cjgod.candy.enums.ResultStatusEnum;
 
 public class JsonResult extends BaseModel {
     /**
      * 针对request的回应结果
      */
-    public String ret = RetStatusEnum.ok.name();
+    public String ret = ResultStatusEnum.ok.name();
     /**
      * 客户端需要提示给用户的内容
      */
