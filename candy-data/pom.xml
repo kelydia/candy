@@ -36,19 +36,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-aop</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-commons</artifactId>
         </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -118,11 +106,7 @@
                     <filter>
                         src/main/resources/filters/jdbc_dev.properties
                     </filter>
-                    <filter>
-                        src/main/resources/filters/log4j_dev.properties
-                    </filter>
                 </filters>
-
             </build>
             <activation>
                 <activeByDefault>true</activeByDefault>
@@ -135,9 +119,6 @@
                     <filter>
                         src/main/resources/filters/jdbc_prod.properties
                     </filter>
-                    <filter>
-                        src/main/resources/filters/log4j_prod.properties
-                    </filter>
                 </filters>
             </build>
         </profile>
@@ -147,9 +128,6 @@
                 <filters>
                     <filter>
                         src/main/resources/filters/jdbc_qa.properties
-                    </filter>
-                    <filter>
-                        src/main/resources/filters/log4j_qa.properties
                     </filter>
                 </filters>
             </build>

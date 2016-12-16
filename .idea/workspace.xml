@@ -5,40 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79626167-3b3b-45b3-8191-1b329cabed83" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-common/src/main/java/com/cjgod/candy/logger/BaseLogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-common/src/main/java/com/cjgod/candy/logger/InfoLoggerUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-common/src/main/java/com/cjgod/candy/logger/RequestLoggerUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-common/src/main/java/com/cjgod/candy/logger/ResponseLoggerUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/dao/db/interfaces/db/dto/CapitalDrawDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/dao/db/interfaces/db/interfaces/CapitalMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/dao/db/interfaces/db/mapper/CapitalMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/resources/conf/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/resources/conf/log4j.dtd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/resources/conf/log4j.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/resources/conf/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/resources/conf/spring-mybatis.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/resources/conf/spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/resources/filters/jdbc_dev.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/resources/filters/jdbc_prod.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/resources/filters/jdbc_qa.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/resources/filters/log4j_dev.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/resources/filters/log4j_prod.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/resources/filters/log4j_qa.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/common/AbstractJUnit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalMapperTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/ICapitalService.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/morning_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/morning_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-common/src/test/java/com/cjgod/candy/logger/LoggerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/enums/RetStatusEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/model/BaseModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/model/ComboBoxResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/model/JsonResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/model/ListResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/model/PageResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/service/dto/CapitalDrawDetailServiceDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/service/impl/CapitalServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/service/interfaces/CapitalService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/service/interfaces/EnumService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-service/src/main/resources/conf/spring.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-service/src/test/java/com/cjgod/candy/common/AbstractJUnit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/candy-service/src/test/java/com/cjgod/candy/service/CapitalServiceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candy-common/candy-common.iml" afterPath="$PROJECT_DIR$/candy-common/candy-common.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candy-common/pom.xml" afterPath="$PROJECT_DIR$/candy-common/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candy-data/candy-data.iml" afterPath="$PROJECT_DIR$/candy-data/candy-data.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candy-data/pom.xml" afterPath="$PROJECT_DIR$/candy-data/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/morning/morning.iml" afterPath="$PROJECT_DIR$/morning/morning.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candy-data/src/main/resources/filters/jdbc_dev.properties" afterPath="$PROJECT_DIR$/candy-data/src/main/resources/filters/jdbc_dev.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalMapperTest.java" afterPath="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalMapperTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candy-service/candy-service.iml" afterPath="$PROJECT_DIR$/candy-service/candy-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/candy-service/pom.xml" afterPath="$PROJECT_DIR$/candy-service/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/candy-data/src/main/resources/conf/log4j.dtd" afterPath="$PROJECT_DIR$/candy-common/src/main/resources/conf/log4j.dtd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/candy-data/src/main/resources/conf/log4j.xml" afterPath="$PROJECT_DIR$/candy-common/src/main/resources/conf/log4j.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/candy-data/src/main/resources/filters/log4j_dev.properties" afterPath="$PROJECT_DIR$/candy-common/src/main/resources/filters/log4j_dev.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/candy-data/src/main/resources/filters/log4j_prod.properties" afterPath="$PROJECT_DIR$/candy-common/src/main/resources/filters/log4j_prod.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/candy-data/src/main/resources/filters/log4j_qa.properties" afterPath="$PROJECT_DIR$/candy-common/src/main/resources/filters/log4j_qa.properties" />
     </list>
     <ignored path="candy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,24 +60,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CapitalMapperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalMapperTest.java">
+      <file leaf-file-name="CapitalServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/candy-service/src/test/java/com/cjgod/candy/service/CapitalServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="320">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/candy-data/target/classes/conf/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -99,6 +84,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="lichunjiang &lt;4522692@qq.com&gt;" />
         <option value="lichunjiang" />
       </list>
     </option>
@@ -117,23 +103,47 @@
         <option value="$PROJECT_DIR$/candy-data/src/main/resources/filters/log4j_dev.properties" />
         <option value="$PROJECT_DIR$/candy-data/src/main/resources/filters/log4j_prod.properties" />
         <option value="$PROJECT_DIR$/candy-data/src/main/resources/filters/log4j_qa.properties" />
-        <option value="$PROJECT_DIR$/candy-data/src/main/resources/conf/log4j.xml" />
         <option value="$PROJECT_DIR$/candy-common/candy-common.iml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/candy-common/src/main/java/com/cjgod/candy/logger/BaseLogger.java" />
         <option value="$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/dao/dto/CapitalDrawDetail.java" />
         <option value="$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/dao/interfaces/CapitalMapper.java" />
         <option value="$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/dao/mapper/CapitalMapper.xml" />
-        <option value="$PROJECT_DIR$/candy-data/src/main/resources/conf/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/dao/db/interfaces/db/interfaces/CapitalMapper.java" />
         <option value="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/common/AbstractJUnit.java" />
         <option value="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalDrawDetailDto.java" />
-        <option value="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalMapperTest.java" />
+        <option value="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/ICapitalService.java" />
+        <option value="$PROJECT_DIR$/candy-data/src/main/resources/conf/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalService.java" />
+        <option value="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/logic/CapitalLogic.java" />
+        <option value="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/logic/impl/CapitalLogicImpl.java" />
+        <option value="$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/dao/db/interfaces/CapitalMapper.java" />
         <option value="$PROJECT_DIR$/candy-data/src/main/resources/conf/spring.xml" />
+        <option value="$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/enums/IAETypeEnum.java" />
+        <option value="$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/enums/WithdrawStatusEnum.java" />
+        <option value="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/enums/IAETypeEnumTest.java" />
+        <option value="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/enums/EnumTest.java" />
+        <option value="$PROJECT_DIR$/candy-service/pom.xml" />
+        <option value="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/service/dto/CapitalDrawDetailServiceDto.java" />
+        <option value="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/service/CapitalService.java" />
+        <option value="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/service/interfaces/CapitalService.java" />
+        <option value="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/service/impl/CapitalServiceImpl.java" />
+        <option value="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/model/PageResult.java" />
+        <option value="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/service/interfaces/EnumService.java" />
+        <option value="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/model/BaseModel.java" />
+        <option value="$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/enums/RetStatusEnum.java" />
+        <option value="$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/model/JsonResult.java" />
+        <option value="$PROJECT_DIR$/candy-service/src/main/resources/conf/spring.xml" />
+        <option value="$PROJECT_DIR$/candy-service/src/main/resources/conf/log4j.xml" />
+        <option value="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalMapperTest.java" />
+        <option value="$PROJECT_DIR$/candy-data/src/main/resources/conf/log4j.xml" />
+        <option value="$PROJECT_DIR$/candy-common/src/test/java/com/cjgod/candy/logger/LoggerTest.java" />
+        <option value="$PROJECT_DIR$/candy-service/src/test/java/com/cjgod/candy/service/CapitalServiceTest.java" />
+        <option value="$PROJECT_DIR$/candy-common/src/main/resources/conf/log4j.xml" />
+        <option value="$PROJECT_DIR$/candy-common/src/main/resources/filters/log4j_dev.properties" />
         <option value="$PROJECT_DIR$/candy-common/pom.xml" />
         <option value="$PROJECT_DIR$/candy-data/pom.xml" />
-        <option value="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/ICapitalService.java" />
-        <option value="$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalService.java" />
+        <option value="$PROJECT_DIR$/candy-data/src/main/resources/filters/jdbc_dev.properties" />
       </list>
     </option>
   </component>
@@ -220,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -231,8 +240,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="candy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="candy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,19 +268,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.cjgod.candy.dao.db.interfaces" />
       <recent name="com.cjgod.candy.common" />
-      <recent name="com.cjgod.candy.dao.interfaces" />
-      <recent name="com.cjgod.candy.dao.dto" />
+      <recent name="com.cjgod.candy.service.impl" />
+      <recent name="com.cjgod.candy.service.dto" />
+      <recent name="com.cjgod.candy.logic.impl" />
+      <recent name="com.cjgod.candy.logic" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\idea_ws\candy\candy-data\src\main\resources\conf" />
-      <recent name="E:\idea_ws\candy\candy-data\src\main\java\com\cjgod\candy\dao\mapper" />
-      <recent name="E:\idea_ws\candy\candy-common\src\main\java\com\cjgod\candy\logger" />
-      <recent name="E:\idea_ws\candy\candy-data\src\main\resources\filters" />
+      <recent name="E:\idea_ws\candy\candy-common\src\main\resources" />
+      <recent name="E:\idea_ws\candy\candy-service\src\main\resources\conf" />
+      <recent name="E:\idea_ws\candy\candy-service\src\main\resources\filters" />
+      <recent name="E:\idea_ws\candy\candy-service\src\main\java\com\cjgod\candy\model" />
+      <recent name="E:\idea_ws\candy\candy-service\src\main\java\com\cjgod\candy\service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CapitalMapperTest.test1">
+  <component name="RunManager" selected="JUnit.CapitalServiceTest.test1">
     <configuration default="false" name="CapitalMapperTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -273,6 +295,110 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.cjgod.candy.dao.db.interfaces" />
       <option name="MAIN_CLASS_NAME" value="com.cjgod.candy.dao.db.interfaces.CapitalMapperTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="EnumTest.IAETypeEnumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cjgod.candy.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="candy-data" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cjgod.candy.enums" />
+      <option name="MAIN_CLASS_NAME" value="com.cjgod.candy.enums.EnumTest" />
+      <option name="METHOD_NAME" value="IAETypeEnumTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CapitalServiceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cjgod.candy.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="candy-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cjgod.candy.service" />
+      <option name="MAIN_CLASS_NAME" value="com.cjgod.candy.service.CapitalServiceTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CapitalServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cjgod.candy.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="candy-service" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cjgod.candy.service" />
+      <option name="MAIN_CLASS_NAME" value="com.cjgod.candy.service.CapitalServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LoggerTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cjgod.candy.logger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="candy-common" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cjgod.candy.logger" />
+      <option name="MAIN_CLASS_NAME" value="com.cjgod.candy.logger.LoggerTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -694,7 +820,9 @@
               </list>
             </option>
             <option name="profilesMap">
-              <map />
+              <map>
+                <entry key="dev" value="true" />
+              </map>
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/candy-data" />
@@ -730,14 +858,22 @@
       </MavenSettings>
       <method />
     </configuration>
-    <list size="3">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Maven.candy-data [install]" />
       <item index="1" class="java.lang.String" itemvalue="Maven.candy [install]" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.CapitalMapperTest.test1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EnumTest.IAETypeEnumTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CapitalServiceTest.test1" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CapitalServiceTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.LoggerTest.test1" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CapitalMapperTest.test1" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CapitalServiceTest.test1" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CapitalMapperTest.test1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LoggerTest.test1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CapitalServiceTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EnumTest.IAETypeEnumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -756,7 +892,9 @@
       <updated>1481780123824</updated>
       <workItem from="1481780127079" duration="3864000" />
       <workItem from="1481785494735" duration="10621000" />
-      <workItem from="1481796145628" duration="8000" />
+      <workItem from="1481796145628" duration="83000" />
+      <workItem from="1481853051765" duration="8345000" />
+      <workItem from="1481867270171" duration="3979000" />
     </task>
     <task id="LOCAL-00001" summary="新建项目框架">
       <created>1481786894342</created>
@@ -765,28 +903,64 @@
       <option name="project" value="LOCAL" />
       <updated>1481786894342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完善项目框架">
+      <created>1481796168685</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1481796168685</updated>
+    </task>
+    <task id="LOCAL-00003" summary="数据层demo">
+      <created>1481857715441</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1481857715441</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加枚举demo">
+      <created>1481858507520</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1481858507520</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CapitalMapperTest_test1 - 2016.12.15 at 17h 31m 11s.xml">
+    <history-entry file="CapitalMapperTest_test1 - 2016.12.16 at 14h 26m 48s.xml">
       <configuration name="CapitalMapperTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CapitalMapperTest_test1 - 2016.12.15 at 17h 33m 07s.xml">
+    <history-entry file="CapitalMapperTest_test1 - 2016.12.16 at 14h 27m 25s.xml">
       <configuration name="CapitalMapperTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CapitalMapperTest_test1 - 2016.12.15 at 17h 35m 28s.xml">
+    <history-entry file="CapitalMapperTest_test1 - 2016.12.16 at 14h 37m 52s.xml">
       <configuration name="CapitalMapperTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CapitalMapperTest_test1 - 2016.12.15 at 17h 48m 19s.xml">
-      <configuration name="CapitalMapperTest.test1" configurationId="JUnit" />
+    <history-entry file="CapitalServiceTest_test1 - 2016.12.16 at 14h 28m 44s.xml">
+      <configuration name="CapitalServiceTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CapitalMapperTest_test1 - 2016.12.15 at 18h 00m 19s.xml">
-      <configuration name="CapitalMapperTest.test1" configurationId="JUnit" />
+    <history-entry file="CapitalServiceTest_test1 - 2016.12.16 at 14h 30m 20s.xml">
+      <configuration name="CapitalServiceTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CapitalServiceTest_test1 - 2016.12.16 at 14h 32m 48s.xml">
+      <configuration name="CapitalServiceTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CapitalServiceTest_test1 - 2016.12.16 at 14h 36m 46s.xml">
+      <configuration name="CapitalServiceTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CapitalServiceTest_test1 - 2016.12.16 at 14h 44m 33s.xml">
+      <configuration name="CapitalServiceTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CapitalServiceTest_test1 - 2016.12.16 at 14h 47m 56s.xml">
+      <configuration name="CapitalServiceTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoggerTest_test1 - 2016.12.16 at 14h 36m 27s.xml">
+      <configuration name="LoggerTest.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14493000" />
+    <option name="totallyTimeSpent" value="26892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1056" extended-state="0" />
@@ -794,13 +968,15 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16185898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -809,17 +985,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -854,10 +1028,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新建项目框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="新建项目框架" />
+    <MESSAGE value="完善项目框架" />
+    <MESSAGE value="数据层demo" />
+    <MESSAGE value="添加枚举demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加枚举demo" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -865,201 +1044,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/target/classes/conf/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/morning/src/main/webapp/WEB-INF/applicationContext.xml" />
-    <entry file="file://$PROJECT_DIR$/morning/src/main/webapp/WEB-INF/log4j.xml" />
-    <entry file="file://$PROJECT_DIR$/morning/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/morning/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="147" column="21" selection-start-line="100" selection-start-column="0" selection-end-line="147" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/conf/log4j.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/filters/log4j_dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/filters/log4j_prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/filters/log4j_qa.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-common/src/main/java/com/cjgod/candy/logger/ResponseLoggerUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-common/src/main/java/com/cjgod/candy/logger/RequestLoggerUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-common/candy-common.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-common/src/main/java/com/cjgod/candy/logger/BaseLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-common/src/main/java/com/cjgod/candy/logger/InfoLoggerUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/conf/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/dao/db/interfaces/db/dto/CapitalDrawDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/dao/db/interfaces/db/mapper/CapitalMapper.xml">
+    <entry file="file://$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/dao/db/mapper/CapitalMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="21" column="61" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="61" />
-          <folding>
-            <marker date="1481793850946" expanded="true" signature="969:1776" ph="select a.use... user_basic" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/conf/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/conf/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces.java" />
-    <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/common/AbstractJUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="98" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/dao/db/interfaces/db/interfaces/CapitalMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="31" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalDrawDetailDto.java" />
-    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/conf/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/conf/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/filters/jdbc_dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4880">
@@ -1068,49 +1061,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/conf/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/candy-data/target/classes/filters/jdbc_dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/pom.xml">
+    <entry file="file://$PROJECT_DIR$/candy-data/target/classes/conf/log4j.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="100" column="70" selection-start-line="100" selection-start-column="70" selection-end-line="100" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/ICapitalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-540">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1118,7 +1086,340 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/common/AbstractJUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="12" column="94" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/conf/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalLogic.java" />
+    <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalLogicImpl.java" />
+    <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/logic/CapitalLogic.java" />
+    <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/logic/impl/CapitalLogicImpl.java" />
+    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/conf/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/enums/IAETypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/enums/WithdrawStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/enums/EnumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/service/dto/CapitalDrawDetailServiceDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1417#1418#0" expanded="false" />
+            <element signature="e#1447#1448#0" expanded="false" />
+            <element signature="e#1493#1494#0" expanded="false" />
+            <element signature="e#1531#1532#0" expanded="false" />
+            <element signature="e#1570#1571#0" expanded="false" />
+            <element signature="e#1605#1606#0" expanded="false" />
+            <element signature="e#1779#1780#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/dao/db/interfaces/CapitalMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/test/java/com/cjgod/candy/common/AbstractJUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/model/ListResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/model/PageResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/service/interfaces/EnumService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/model/BaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+          <folding>
+            <element signature="e#2036#2037#0" expanded="false" />
+            <element signature="e#2063#2064#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/src/main/java/com/cjgod/candy/enums/RetStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/model/ComboBoxResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/model/JsonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/service/impl/CapitalServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/main/java/com/cjgod/candy/service/interfaces/CapitalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/main/resources/filters/log4j_qa.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/main/resources/filters/log4j_dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/conf/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/main/resources/conf/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/conf/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2180">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/main/resources/conf/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1302">
+          <caret line="89" column="39" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-common/src/main/resources/conf/log4j.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-common/src/test/java/com/cjgod/candy/logger/LoggerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/src/test/java/com/cjgod/candy/dao/db/interfaces/CapitalMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-common/src/main/java/com/cjgod/candy/logger/InfoLoggerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-common/src/main/java/com/cjgod/candy/logger/BaseLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-common/src/main/resources/filters/log4j_prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-common/src/main/resources/filters/log4j_dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-common/target/classes/conf/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-698">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-common/src/main/resources/conf/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-data/src/main/resources/filters/jdbc_dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy-service/src/test/java/com/cjgod/candy/service/CapitalServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

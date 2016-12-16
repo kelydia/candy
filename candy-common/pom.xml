@@ -21,12 +21,65 @@
             <artifactId>slf4j-log4j12</artifactId>
         </dependency>
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
         </dependency>
-
-
     </dependencies>
+
+
+    <build>
+        <finalName>candy-common</finalName>
+        <resources>
+            <resource>
+                <!--意思是对src/main/resources目录下的所有文件进行占位符替换。-->
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <build>
+                <filters>
+                    <filter>
+                        src/main/resources/filters/log4j_dev.properties
+                    </filter>
+                </filters>
+
+            </build>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <build>
+                <filters>
+                    <filter>
+                        src/main/resources/filters/log4j_prod.properties
+                    </filter>
+                </filters>
+            </build>
+        </profile>
+        <profile>
+            <id>qa</id>
+            <build>
+                <filters>
+                    <filter>
+                        src/main/resources/filters/log4j_qa.properties
+                    </filter>
+                </filters>
+            </build>
+        </profile>
+    </profiles>
 
 
 
