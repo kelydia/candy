@@ -1,13 +1,15 @@
-package com.cjgod.candy.dao.db.interfaces.db.interfaces;
+package com.cjgod.candy.dao.db.interfaces;
 
-import com.cjgod.candy.dao.db.interfaces.db.dto.CapitalDrawDetail;
+import com.cjgod.candy.dao.db.dto.CapitalDrawDetail;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 /**
  * Created by Administrator on 2016/12/13.
  */
+@Repository
 public interface CapitalMapper {
 
     /**

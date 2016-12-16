@@ -9,11 +9,12 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public class CapitalMapperTest extends AbstractJUnit{
     @Autowired
-    private ICapitalService service;
+    private CapitalMapper mapper;
 
     @Test
     public void test1(){
-        int count = service.getWithdrawPageCounts("","","ALL");
+        int count = 0;
+        count = mapper.getWithdrawPageCounts("","","ALL");
         System.out.println("查询到记录条数： "+count);
     }
 }

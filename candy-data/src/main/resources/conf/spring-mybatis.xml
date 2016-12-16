@@ -82,7 +82,7 @@
 	<!-- Session工厂 -->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
-		<!-- mybatis配置文件 -->
+		<!-- 指定sqlMapConfig总配置文件，订制的environment在spring容器中不在生效-->
 		<property name="configLocation" value="classpath:conf/mybatis-config.xml" />
 		<property name="mapperLocations"
 			value="classpath:com/cjgod/candy/dao/db/mapper/*.xml"></property>

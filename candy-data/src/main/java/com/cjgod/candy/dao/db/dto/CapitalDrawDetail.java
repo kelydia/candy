@@ -1,4 +1,4 @@
-package com.cjgod.candy.dao.db.interfaces.db.dto;
+package com.cjgod.candy.dao.db.dto;
 
 /**
  * Created by Administrator on 2016/12/14.
