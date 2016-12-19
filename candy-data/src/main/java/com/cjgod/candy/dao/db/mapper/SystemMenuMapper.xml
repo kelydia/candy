@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cjgod.candy.dao.db.interfaces.SystemMenuMapper">
+
+    <select id="getMenuListByRoleId" parameterType="Integer"
+            resultType="com.cjgod.candy.dao.db.dto.SystemMenu">
+		SELECT
+		m.uid id,
+		m.menu_href_value url,
+		m.menu_name text,
+		m.parent_menu_id parentMenuId
+		FROM system_menu m,system_role r,system_role_menu rm
+		WHERE
+		rm.menu_id=m.uid
+		AND
+		rm.role_id=r.uid
+		AND
+		r.uid=#{roleId}
+		ORDER BY site_sort_id ASC;
+	</select>
+
+</mapper>

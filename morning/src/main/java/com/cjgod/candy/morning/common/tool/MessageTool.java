@@ -18,7 +18,7 @@ import java.util.Map;
 public class MessageTool {
     private static final String MSG_CONF_PATH = "conf/error-message.properties";
 
-    private final Map<String, String> msgMap = LoadPropertiesUtil.load(MSG_CONF_PATH);
+    private final Map<String, String> msgMap = null;//LoadPropertiesUtil.load(MSG_CONF_PATH);
 
 
     public String getMessage(String msgId, String params[]) {

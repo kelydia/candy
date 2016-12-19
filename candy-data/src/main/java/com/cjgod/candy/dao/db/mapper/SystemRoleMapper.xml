@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+        namespace="com.cjgod.candy.dao.db.interfaces.SyetemRoleMapper">
+
+    <select id="getRoleList"
+            resultType="com.cjgod.candy.dao.db.dto.SystemRole">
+		SELECT uid id,name FROM system_role  ORDER BY create_date
+	</select>
+
+</mapper>

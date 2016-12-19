@@ -12,8 +12,12 @@
            http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 
 	<!-- 采用注释的方式配置bean -->
-	<!-- <context:annotation-config /> -->
-	<context:component-scan base-package="com.cjgod.candy.dao.*.interfaces"/>
+	<!-- 不搜索@Controller的类 -->
+	<context:component-scan base-package="com.cjgod.candy"
+							annotation-config="true">
+		<context:exclude-filter type="annotation"
+								expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
 
 	<!-- 加载 jdbc.properties 配置文件 -->
 	<bean
@@ -21,22 +25,9 @@
 		<property name="locations">
 			<list>
 				<value>classpath:conf/jdbc.properties</value>
-				<!--
-				<value>classpath:conf/redis.properties</value>
-				<value>classpath:conf/mongo.properties</value> -->
 			</list>
 		</property>
 	</bean>
 
-	<!-- redis连接池配置相关bean定义
-	<import resource="classpath:conf/redis_pool_config.xml" />
-	 mongodb配置相关bean定义
-	<import resource="classpath:conf/mongo-config.xml" />
-	 mongodb工具类
-	<bean id="mongoTool" class="com.cjgod.candy.mongo.MongoTool"
-		depends-on="mongoTemplate" />
-	<bean id="jedisTool" class="com.cjgod.candy.redis.JedisTool"
-		init-method="init" depends-on="jedisPool" />
-	-->
 	
 </beans>

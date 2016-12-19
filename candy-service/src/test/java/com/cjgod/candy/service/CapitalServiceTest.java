@@ -15,7 +15,7 @@ public class CapitalServiceTest extends AbstractJUnit{
 
     @Test
     public void test1(){
-        InfoLoggerUtil.e("出错啦");
+        //InfoLoggerUtil.e("出错啦");
         int count = capitalService.getWithdrawPageCounts("","","ALL");
         System.out.println("查询到记录条数： "+count);
     }

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cjgod.candy.dao.db.interfaces.SystemAdministratorMapper">
+
+    <select id="getByUsernameAndPassword" parameterType="string"
+            resultType="com.cjgod.candy.dao.db.dto.SystemAdministrator">
+		SELECT
+		uid id,
+		serial_number serialNumber,
+		username,
+		password,
+		tel,
+		email,
+		status,
+		role_id roleId
+		FROM system_administrator WHERE
+		username=#{username}
+		AND
+		password=#{password}
+	</select>
+
+
+    <select id="getById" parameterType="Integer"
+            resultType="com.cjgod.candy.dao.db.dto.SystemAdministrator">
+		SELECT
+		uid id,
+		serial_number serialNumber,
+		username,
+		password,
+		tel,
+		email,
+		status,
+		role_id roleId,
+		real_name realName
+		FROM
+		system_administrator
+		WHERE
+		uid=#{id}
+	</select>
+
+    <update id="updatePasswordById">
+		UPDATE system_administrator SET password=#{password,jdbcType=VARCHAR} WHERE uid=#{id,jdbcType=INTEGER}
+	</update>
+
+
+    <select id="getPageByCondition" resultType="com.cjgod.candy.dao.db.dto.SystemAdministrator">
+        SELECT
+        s.uid id,
+        s.real_name realName,
+        s.serial_number serialNumber,
+        s.username,
+        s.password,
+        s.tel,
+        s.email,
+        s.status,
+        s.role_id roleId,
+        r.name roleName
+        FROM
+        system_administrator s,
+        system_role r
+        WHERE s.role_id=r.uid
+        <if test="username!=null and username!=''">
+            AND s.username LIKE CONCAT('%',#{username,jdbcType=VARCHAR},'%')
+        </if>
+        ORDER BY s.serial_number
+        DESC limit #{page,jdbcType=INTEGER},#{rows,jdbcType=INTEGER}
+    </select>
+
+
+    <select id="getPageCounts" resultType="Integer">
+        SELECT COUNT(*) FROM system_administrator
+        <if test="username!=null and username!=''">
+            WHERE username LIKE CONCAT('%',#{username,jdbcType=VARCHAR},'%')
+        </if>
+    </select>
+
+    <delete id="deleteByIds" parameterType="int">
+        DELETE FROM system_administrator WHERE uid IN
+        <foreach item="idItem" collection="array" open="(" separator="," close=")">
+            #{idItem}
+        </foreach>
+    </delete>
+
+    <update id="update" parameterType="com.cjgod.candy.dao.db.dto.SystemAdministrator">
+        UPDATE system_administrator SET
+        <if test="password!=null and password!=''">
+            password=#{password},
+        </if>
+        serial_number=#{serialNumber},
+        tel=#{tel},
+        email=#{email},
+        status=#{status},
+        update_date=now(),
+        real_name=#{realName},
+        role_id=#{roleId}
+        WHERE uid=#{id}
+    </update>
+
+
+    <insert id="add" parameterType="com.cjgod.candy.dao.db.dto.SystemAdministrator">
+        INSERT INTO system_administrator(serial_number,username,password,tel,email,status,create_date,role_id,real_name)
+        VALUES(#{serialNumber},#{username},#{password},#{tel},#{email},#{status},now(),#{roleId},#{realName})
+    </insert>
+
+    <select id="getByUsername" parameterType="string"
+            resultType="com.cjgod.candy.dao.db.dto.SystemAdministrator">
+        SELECT uid id,
+        serial_number serialNumber,
+        username,
+        password,
+        tel,
+        email,
+        status,
+        role_id roleId,
+        real_name realName
+        FROM system_administrator
+        WHERE username=#{username}
+    </select>
+</mapper>

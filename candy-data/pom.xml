@@ -80,11 +80,6 @@
         <finalName>candy-data</finalName>
         <resources>
             <resource>
-                <!--意思是对src/main/resources目录下的所有文件进行占位符替换。-->
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-            <resource>
                 <directory>src/main/java</directory>
                 <includes>
                     <include>**/*.xml</include>
@@ -93,41 +88,7 @@
         </resources>
     </build>
 
-    <profiles>
-        <profile>
-            <id>dev</id>
-            <build>
-                <filters>
-                    <filter>
-                        src/main/resources/filters/jdbc_dev.properties
-                    </filter>
-                </filters>
-            </build>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-        </profile>
-        <profile>
-            <id>prod</id>
-            <build>
-                <filters>
-                    <filter>
-                        src/main/resources/filters/jdbc_prod.properties
-                    </filter>
-                </filters>
-            </build>
-        </profile>
-        <profile>
-            <id>qa</id>
-            <build>
-                <filters>
-                    <filter>
-                        src/main/resources/filters/jdbc_qa.properties
-                    </filter>
-                </filters>
-            </build>
-        </profile>
-    </profiles>
 
+    <!-- resources为测试使用，生成jar时，不包含该文件夹内容，由应用层进行配置 -->
 
 </project>
