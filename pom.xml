@@ -17,7 +17,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <springframework.version>4.3.2.RELEASE</springframework.version>
-        <jackson.version>2.7.4</jackson.version>
+        <jackson.version>2.11.0</jackson.version>
         <velocity.version>1.5</velocity.version>
         <xmemcached.version>1.4.1</xmemcached.version>
         <dom4j.version>1.6.1</dom4j.version>
