@@ -30,7 +30,7 @@
         <solr.version>4.5.1</solr.version>
         <lucene.version>4.5.1</lucene.version>
         <mina.version>2.0.7</mina.version>
-        <shiro.version>1.2.3</shiro.version>
+        <shiro.version>1.8.0</shiro.version>
         <fastjson.version>1.2.16</fastjson.version>
         <jdk.version>1.8</jdk.version>
     </properties>
